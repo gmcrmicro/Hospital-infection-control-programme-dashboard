@@ -350,7 +350,7 @@ const COLORS = [
     <img
       src={ramnadLogo}
       alt="Ramnad Medical College Logo"
-      className="w-28 h-28 object-contain bg-white rounded-full p-2 shadow-lg"
+      className="w-28 h-28 object-contain bg-white rounded-full"
     />
 
     <div className="text-center flex-1 px-6">
@@ -358,7 +358,7 @@ const COLORS = [
       <img
         src={tnLogo}
         alt="Tamil Nadu Government Logo"
-        className="w-28 h-28 object-contain mx-auto mb-4 bg-white rounded-full p-2 shadow-lg"
+        className="w-28 h-28 object-contain mx-auto mb-4 bg-white rounded-full"
       />
 
       <h2 className="text-3xl font-bold tracking-wide mb-2">
@@ -366,11 +366,11 @@ const COLORS = [
       </h2>
 
       <h3 className="text-2xl font-semibold mb-4">
-        Government Medical College & Hospital, Ramanathapuram
+        Government Medical College & Hospital, Ramanathapuram, Tamil Nadu, India
       </h3>
 
       <h1 className="text-5xl font-bold mb-3">
-        AI Hospital Infection Control Programme Dashboard
+        Hospital Infection Control Programme Dashboard
       </h1>
 
       <p className="text-xl opacity-90">
@@ -382,7 +382,7 @@ const COLORS = [
     <img
       src={dmeLogo}
       alt="DME Logo"
-      className="w-28 h-28 object-contain bg-white rounded-full p-2 shadow-lg"
+      className="w-28 h-28 object-contain bg-white rounded-full"
     />
 
   </div>
