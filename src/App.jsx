@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+import tnLogo from "./assets/tn-logo.png";
+import ramnadLogo from "./assets/ramnad-logo.png";
+import dmeLogo from "./assets/dme-logo.png";
+
 import { db } from "./firebase";
 
 import {
@@ -339,38 +343,62 @@ const COLORS = [
 
       <div className="max-w-7xl mx-auto">
 
-        <div className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white rounded-3xl shadow-xl p-8 mb-8 text-center">
+        <div className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white rounded-3xl shadow-xl p-8 mb-8">
 
-          <h2 className="text-2xl font-semibold mb-2">
-            DEPARTMENT OF MICROBIOLOGY
-          </h2>
+  <div className="flex items-center justify-between">
 
-          <h3 className="text-xl mb-4">
-            Government Medical College & Hospital, Ramanathapuram
-          </h3>
+    <img
+      src={ramnadLogo}
+      alt="Ramnad Medical College Logo"
+      className="w-28 h-28 object-contain bg-white rounded-full p-2 shadow-lg"
+    />
 
-          <h1 className="text-5xl font-bold mb-3">
-            Hospital Infection Control Programme Dashboard
-          </h1>
+    <div className="text-center flex-1 px-6">
 
-          <p className="text-xl opacity-90">
-            CDC • WHO • NABL • NABH Guided Smart Surveillance Platform
-          </p>
+      <img
+        src={tnLogo}
+        alt="Tamil Nadu Government Logo"
+        className="w-28 h-28 object-contain mx-auto mb-4 bg-white rounded-full p-2 shadow-lg"
+      />
 
-        </div>
+      <h2 className="text-3xl font-bold tracking-wide mb-2">
+        DEPARTMENT OF MICROBIOLOGY
+      </h2>
 
-        <div className="grid md:grid-cols-4 gap-6 mb-8">
+      <h3 className="text-2xl font-semibold mb-4">
+        Government Medical College & Hospital, Ramanathapuram
+      </h3>
 
-          <div className="bg-white rounded-3xl shadow-lg p-6">
-            <h2 className="text-lg text-slate-500 mb-2">
-              Overall Compliance
-            </h2>
+      <h1 className="text-5xl font-bold mb-3">
+        AI Hospital Infection Control Programme Dashboard
+      </h1>
 
-            <div className="text-5xl font-bold text-blue-700">
-              82%
-            </div>
-          </div>
+      <p className="text-xl opacity-90">
+        CDC • WHO • NABL • NABH Guided Smart Surveillance Platform
+      </p>
 
+    </div>
+
+    <img
+      src={dmeLogo}
+      alt="DME Logo"
+      className="w-28 h-28 object-contain bg-white rounded-full p-2 shadow-lg"
+    />
+
+  </div>
+
+</div>
+<div className="grid md:grid-cols-4 gap-6 mb-8">
+
+  <div className="bg-white rounded-3xl shadow-lg p-6">
+    <h2 className="text-lg text-slate-500 mb-2">
+      Overall Compliance
+    </h2>
+
+    <div className="text-5xl font-bold text-blue-700">
+      82%
+    </div>
+  </div>
           <div className="bg-white rounded-3xl shadow-lg p-6">
             <h2 className="text-lg text-slate-500 mb-2">
               High Risk Areas
@@ -401,7 +429,7 @@ const COLORS = [
             </div>
           </div>
 
-        </div>
+                </div>
 
         <div className="bg-white rounded-3xl shadow-xl p-8 mb-8">
 
