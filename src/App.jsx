@@ -1,3 +1,4 @@
+import Login from "./Login";
 import { useState } from "react";
 
 import tnLogo from "./assets/tn-logo.png";
@@ -25,6 +26,7 @@ import {
   Line
 } from "recharts";
 export default function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const [department, setDepartment] = useState("");
   const [moduleName, setModuleName] = useState("");
@@ -337,7 +339,9 @@ const COLORS = [
       status: "Needs Improvement",
     },
   ];
-
+if (!isLoggedIn) {
+  return <Login setIsLoggedIn={setIsLoggedIn} />;
+}
   return (
     <div className="min-h-screen bg-slate-100 p-6">
 
