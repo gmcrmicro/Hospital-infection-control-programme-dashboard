@@ -65,7 +65,7 @@ export default function Login({ setIsLoggedIn }) {
                 DEPARTMENT OF MICROBIOLOGY
               </h1>
 
-              <h2 className="text-3x1 font-semibold">
+              <h2 className="text-3x1 font-bold mb-2">
                 Government Medical College & Hospital, Ramanathapuram, Tamil Nadu, India
               </h2>
 
