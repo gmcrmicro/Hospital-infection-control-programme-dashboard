@@ -43,14 +43,14 @@ export default function Login({ setIsLoggedIn }) {
 
       <div className="bg-white rounded-3xl shadow-2xl w-full max-w-5xl overflow-hidden">
 
-        <div className="bg-blue-950 text-white p-6">
+        <div className="bg-white-950 text-blue-900 p-6">
 
           <div className="flex items-center justify-between">
 
             <img
               src={ramnadLogo}
               alt="Ramnad Logo"
-              className="w-26 h-26 object-contain bg-white rounded-full p-2"
+              className="w-26 h-26"
             />
 
             <div className="text-center flex-1 px-4">
@@ -58,7 +58,7 @@ export default function Login({ setIsLoggedIn }) {
               <img
                 src={tnLogo}
                 alt="Tamil Nadu Government Logo"
-                className="w-26 h-26 object-contain mx-auto mb-3 bg-white rounded-full p-2"
+                className="w-26 h-26 mx-auto"
               />
 
               <h1 className="text-4xl font-bold mb-2">
@@ -78,7 +78,7 @@ export default function Login({ setIsLoggedIn }) {
             <img
               src={dmeLogo}
               alt="DME Logo"
-              className="w-26 h-26 object-contain bg-white rounded-full p-2"
+              className="w-26 h-26"
             />
 
           </div>
