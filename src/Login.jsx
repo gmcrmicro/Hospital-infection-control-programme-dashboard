@@ -1,5 +1,8 @@
 import { useState } from "react";
 import loginBanner from "./assets/login-banner.png";
+import tnLogo from "./assets/tn-logo.png";
+import ramnadLogo from "./assets/ramnad-logo.png";
+import dmeLogo from "./assets/dme-logo.png";
 import {
   signInWithEmailAndPassword
 } from "firebase/auth";
@@ -38,6 +41,47 @@ export default function Login({ setIsLoggedIn }) {
       <div className="bg-white rounded-3xl shadow-2xl w-full max-w-2xl overflow-hidden">
 
   <img
+  <div className="bg-blue-950 text-white p-6">
+
+  <div className="flex items-center justify-between">
+
+    <img
+      src={ramnadLogo}
+      alt="Ramnad Logo"
+      className="w-24 h-24 object-contain bg-white rounded-full p-2"
+    />
+
+    <div className="text-center flex-1 px-4">
+
+      <img
+        src={tnLogo}
+        alt="Tamil Nadu Government Logo"
+        className="w-24 h-24 object-contain mx-auto mb-3 bg-white rounded-full p-2"
+      />
+
+      <h1 className="text-4xl font-bold mb-2">
+        DEPARTMENT OF MICROBIOLOGY
+      </h1>
+
+      <h2 className="text-2xl font-semibold">
+        Government Medical College & Hospital
+      </h2>
+
+      <h3 className="text-xl mt-1">
+        Ramanathapuram, Tamil Nadu, India
+      </h3>
+
+    </div>
+
+    <img
+      src={dmeLogo}
+      alt="DME Logo"
+      className="w-24 h-24 object-contain bg-white rounded-full p-2"
+    />
+
+  </div>
+
+</div>
     src={loginBanner}
     alt="Hospital Infection Control Banner"
     className="w-full h-auto"
