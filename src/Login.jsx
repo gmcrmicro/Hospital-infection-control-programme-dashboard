@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import loginBanner from "./assets/login-banner.png";
 import {
   signInWithEmailAndPassword
 } from "firebase/auth";
@@ -35,10 +35,18 @@ export default function Login({ setIsLoggedIn }) {
 
     <div className="min-h-screen bg-slate-100 flex items-center justify-center">
 
-      <div className="bg-white p-10 rounded-3xl shadow-2xl w-full max-w-md">
+      <div className="bg-white rounded-3xl shadow-2xl w-full max-w-2xl overflow-hidden">
+
+  <img
+    src={loginBanner}
+    alt="Hospital Infection Control Banner"
+    className="w-full h-auto"
+  />
+
+  <div className="p-10">
 
         <h1 className="text-4xl font-bold text-center text-blue-900 mb-8">
-          Hospital Infection Control Login
+          Login
         </h1>
 
         <input
@@ -64,8 +72,11 @@ export default function Login({ setIsLoggedIn }) {
           Login
         </button>
 
-      </div>
+            </div>
 
     </div>
+
+  </div>
+
   );
 }
