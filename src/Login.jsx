@@ -50,7 +50,7 @@ export default function Login({ setIsLoggedIn }) {
             <img
               src={ramnadLogo}
               alt="Ramnad Logo"
-              className="w-24 h-24 object-contain bg-white rounded-full p-2"
+              className="w-26 h-26 object-contain bg-white rounded-full p-2"
             />
 
             <div className="text-center flex-1 px-4">
@@ -58,7 +58,7 @@ export default function Login({ setIsLoggedIn }) {
               <img
                 src={tnLogo}
                 alt="Tamil Nadu Government Logo"
-                className="w-24 h-24 object-contain mx-auto mb-3 bg-white rounded-full p-2"
+                className="w-26 h-26 object-contain mx-auto mb-3 bg-white rounded-full p-2"
               />
 
               <h1 className="text-4xl font-bold mb-2">
@@ -78,7 +78,7 @@ export default function Login({ setIsLoggedIn }) {
             <img
               src={dmeLogo}
               alt="DME Logo"
-              className="w-24 h-24 object-contain bg-white rounded-full p-2"
+              className="w-26 h-26 object-contain bg-white rounded-full p-2"
             />
 
           </div>
