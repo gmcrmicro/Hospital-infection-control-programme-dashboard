@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import loginBanner from "./assets/login-banner.png";
-
 import tnLogo from "./assets/tn-logo.png";
 import ramnadLogo from "./assets/ramnad-logo.png";
 import dmeLogo from "./assets/dme-logo.png";
@@ -68,11 +66,11 @@ export default function Login({ setIsLoggedIn }) {
               </h1>
 
               <h2 className="text-2xl font-semibold">
-                Government Medical College & Hospital
+                Government Medical College & Hospital, Ramanathapuram, Tamil Nadu, India
               </h2>
 
-              <h3 className="text-xl mt-1">
-                Ramanathapuram, Tamil Nadu, India
+              <h3 className="text-4xl font-bold mt-1">
+                HOSPITAL INFECTION CONTROL PROGRAMME PORTAL
               </h3>
 
             </div>
@@ -86,12 +84,6 @@ export default function Login({ setIsLoggedIn }) {
           </div>
 
         </div>
-
-        <img
-          src={loginBanner}
-          alt="Hospital Infection Control Banner"
-          className="w-full h-auto"
-        />
 
         <div className="p-10">
 
