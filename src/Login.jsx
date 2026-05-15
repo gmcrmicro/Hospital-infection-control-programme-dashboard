@@ -25,7 +25,7 @@ export default function Login({ setIsLoggedIn }) {
 
     } catch (error) {
 
-      alert("Invalid login");
+      alert(error.message);
 
       console.error(error);
     }
